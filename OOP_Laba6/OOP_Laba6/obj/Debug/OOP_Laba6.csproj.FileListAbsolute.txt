@@ -1,0 +1,12 @@
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\bin\Debug\OOP_Laba6.exe.config
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\bin\Debug\OOP_Laba6.exe
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\bin\Debug\OOP_Laba6.pdb
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\obj\Debug\OOP_Laba6.csprojAssemblyReference.cache
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\obj\Debug\OOP_Laba6.Menu.resources
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\obj\Debug\OOP_Laba6.Properties.Resources.resources
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\obj\Debug\OOP_Laba6.csproj.GenerateResource.cache
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\obj\Debug\OOP_Laba6.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\obj\Debug\OOP_Laba6.exe
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\obj\Debug\OOP_Laba6.pdb
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\obj\Debug\OOP_Laba6.Sorting.resources
+C:\Users\Andrew\Desktop\OOP_Laba6\OOP_Laba6\OOP_Laba6\bin\Debug\test.txt
