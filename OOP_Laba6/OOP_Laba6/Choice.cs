@@ -4,8 +4,9 @@ namespace OOP_Laba6
 {
     class Choice : Shape
     {
-        public override void sort(ref int[] arr, int size)
+        public override void sort(ref int[] arr)
         {
+            int size = arr.Length;
             for (int i = 0; i < size - 1; ++i)
             {
                 int i_min = i;

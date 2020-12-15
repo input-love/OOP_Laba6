@@ -4,9 +4,9 @@ namespace OOP_Laba6
 {
     class Quick : Shape
     {
-        public override void sort(ref int[] arr, int size)
+        public override void sort(ref int[] arr)
         {
-            quick_sort(ref arr, 0, size - 1);
+            quick_sort(ref arr, 0, arr.Length - 1);
         }
         private void quick_sort(ref int[] arr, int minIndex, int maxIndex)
         {

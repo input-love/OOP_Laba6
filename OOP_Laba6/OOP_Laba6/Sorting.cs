@@ -11,7 +11,12 @@ namespace OOP_Laba6
             InitializeComponent();
         }
 
-        Point lastPoint;
+        private void Exit_MouseClick(object sender, MouseEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private Point lastPoint;
         private void Sorting_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -26,21 +31,16 @@ namespace OOP_Laba6
             lastPoint = new Point(e.X, e.Y);
         }
 
-        private void Exit_MouseClick(object sender, MouseEventArgs e)
-        {
-            Application.Exit();
-        }
-
         private void Go_MouseClick(object sender, MouseEventArgs e)
         {
             try
             {
                 check_correct_input();
 
-                string name = file_name.Text;
-                int size = Parser.parse(count.Text);
+                string name = File_name.Text;
+                int size = Parser.parse(Count.Text);
 
-                int[] arr = ScanFile.scan_file(name, size);
+                int[] arr = ScanFile.scan_file(ref name, size);
 
                 shape_facty(ref arr);
                 print_file(ref arr);
@@ -53,41 +53,41 @@ namespace OOP_Laba6
 
         private void file_name_Enter(object sender, EventArgs e)
         {
-            if (file_name.Text == "File name")
+            if (File_name.Text == "File name")
             {
-                file_name.Text = "";
-                file_name.ForeColor = Color.Black;
+                File_name.Text = "";
+                File_name.ForeColor = Color.Black;
             }
         }
 
         private void file_name_Leave(object sender, EventArgs e)
         {
-            if (file_name.Text == "")
+            if (File_name.Text == "")
             {
-                file_name.Text = "File name";
-                file_name.ForeColor = Color.Gray;
+                File_name.Text = "File name";
+                File_name.ForeColor = Color.Gray;
             }
         }
         private void count_Enter(object sender, EventArgs e)
         {
-            if (count.Text == "Count")
+            if (Count.Text == "Count")
             {
-                count.Text = "";
-                count.ForeColor = Color.Black;
+                Count.Text = "";
+                Count.ForeColor = Color.Black;
             }
         }
         private void count_Leave(object sender, EventArgs e)
         {
-            if (count.Text == "")
+            if (Count.Text == "")
             {
-                count.Text = "Count";
-                count.ForeColor = Color.Gray;
+                Count.Text = "Count";
+                Count.ForeColor = Color.Gray;
             }
         }
 
         private void check_correct_input()
         {
-            if (!(file_name.Text != "File name" && count.Text != "Count"))
+            if (!(File_name.Text != "File name" && Count.Text != "Count"))
             {
                 throw new Exception("Ошибка ввода данных!");
             }
@@ -98,12 +98,12 @@ namespace OOP_Laba6
             if (Quick.Checked)
             {
                 Shape shape = new Quick();
-                shape.sort(ref arr, arr.Length);
+                shape.sort(ref arr);
             }
             else
             {
                 Shape shape = new Choice();
-                shape.sort(ref arr, arr.Length);
+                shape.sort(ref arr);
             }
         }
 

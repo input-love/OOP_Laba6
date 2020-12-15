@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace OOP_Laba6
@@ -22,7 +16,7 @@ namespace OOP_Laba6
             Application.Exit();
         }
 
-        Point lastPoint;
+        private Point lastPoint;
         private void Menu_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)

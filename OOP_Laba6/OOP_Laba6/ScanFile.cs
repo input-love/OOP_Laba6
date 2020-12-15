@@ -5,7 +5,7 @@ namespace OOP_Laba6
 {
     class ScanFile
     {
-        static public int[] scan_file(string name_file, int size)
+        static public int[] scan_file(ref string name_file, int size)
         {
             if (File.Exists(@name_file))
             {
